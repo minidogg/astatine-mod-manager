@@ -1,0 +1,22 @@
+{
+  "name": "astatine-mod-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --watch . --exec 'electron .'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.2.1",
+    "electron-builder": "^22.14.13",
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "node-cmd": "^5.0.0",
+    "node-fetch": "^2.7.0",
+    "path": "^0.12.7"
+  }
+}
