@@ -1,0 +1,108 @@
+body{
+    overflow: hidden;
+    background-color: rgb(37, 37, 37);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    height:1%;
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+.inline{
+    display: inline-block;
+}
+
+#clo-btn{
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+.item{
+    color:black;
+}
+
+#list{
+    background-color: gray;
+    position:absolute;
+    top:1%;
+    left:1%;
+    height:98%;
+    width:45%;
+    border-radius: 3%;
+    overflow-y:auto;
+}
+
+.itemCheckbox{
+    position:relative;
+    top:0%;
+    left:1%;
+    border-radius: 1%;
+}
+
+
+
+.itemSpan{
+    position:relative;
+    left:2%;
+    
+}
+
+input[type=button]{
+    background-color: gray;
+    border-radius: 4px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:none;
+    box-shadow: none;
+}
+input[type=button]:active{
+    background-color: rgb(82, 82, 82);
+}
+input[type=button]:focus {
+    outline: none;
+  }
+
+
+#side{
+    position:absolute;
+    left:46%;
+    top:1%;
+    
+
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    border-radius: 5%;
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 5%;
+    background: #f1f1f1;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5%;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }  
+
+
+
+  
